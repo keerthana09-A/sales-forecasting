@@ -1,0 +1,64 @@
+.inventory-viewport {
+  flex: 1;
+  padding: 36px 44px;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding: 16px 24px !important;
+}
+
+.search-input, .category-select {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 10px 16px;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.search-input:focus, .category-select:focus {
+  border-color: #38bdf8;
+}
+
+.category-select option {
+  background: #0a0d14;
+  color: #fff;
+}
+
+.sku-code {
+  color: #38bdf8;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.highlight-order {
+  color: #a855f7;
+  font-weight: 700;
+}
+
+/* Status Badges */
+.status-pill.status-critical {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.status-pill.status-warning {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.status-pill.status-optimal {
+  background: rgba(34, 197, 94, 0.15);
+  color: #4ade80;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
